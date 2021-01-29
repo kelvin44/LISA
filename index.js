@@ -2,12 +2,12 @@ console.log('Starting...')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('HARTA TAHTA LISA', {
+CFonts.say('CIEE NYOLONG', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'Instagram:\' ff.kelvin15', {
+CFonts.say('\'bot-simi\' By @kelvin44', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
