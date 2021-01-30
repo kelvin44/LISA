@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
   m.reply('Sedang membuat...\n*Mohon tunggu sekitar 1 menit*')
   try {
     let img = await ht(text ? text : ':v')
-    conn.sendFile(m.chat, img, 'Harta Tahta.png', '© Nurutomo\nMade with FFmpeg', m)
+    conn.sendFile(m.chat, img, 'Harta Tahta.png', '©LISA \nMade with FFmpeg', m)
   } finally {
     delete conn.hartatahta[m.chat]
   }
